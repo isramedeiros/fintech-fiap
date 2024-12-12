@@ -1,0 +1,100 @@
+.bom-dia {
+    color: #2C2C2C;
+    font-family: Satoshi, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 33.6px */
+}
+
+svg {
+    width: 33px;
+    height: 33px;
+    flex-shrink: 0; 
+}
+
+.profile-pic {
+    max-width: 70px;
+}
+
+.label-rectangles {
+    color: #2C2C2C;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 33.6px */
+}
+
+.rectangle {
+    background: #F5F5F5;
+    max-width: 756px;
+    min-width: auto;
+    height: 528px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.rectangle2 {
+    background: #343434;
+    max-width: 700px;
+    min-width: auto;
+    height: 528px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.chart {
+    width: 108px;
+    height: auto;
+    border-radius: 12px;
+    background: #1356FF;
+    
+}
+
+.saldo {
+    color: #2C2C2C;
+    font-family: Satoshi;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 89.6px */
+}
+
+.mini-rectangle {
+    width: 211px;
+    height: 177px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    color: #2C2C2C;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #FFF;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.info-box {
+    width: auto;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #F5F5F5;
+}
+
+.currency {
+    color: #1356FF
+}
+
+.highlight {
+    color: #2C2C2C;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 56px */
+}
