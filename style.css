@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif !important;
+}
+
 .bom-dia {
     color: #2C2C2C;
-    font-family: Satoshi, sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
@@ -13,13 +18,16 @@ svg {
     flex-shrink: 0; 
 }
 
+.bancos {
+    max-width: 30px;
+}
+
 .profile-pic {
     max-width: 70px;
 }
 
 .label-rectangles {
     color: #2C2C2C;
-    font-family: Satoshi;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -92,9 +100,16 @@ svg {
 
 .highlight {
     color: #2C2C2C;
-    font-family: Satoshi;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 140%; /* 56px */
+}
+
+.profile-pic {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 64px;
+    background: url('https://bit.ly/41uwjxB') lightgray 50% / cover no-repeat;
 }
